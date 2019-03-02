@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Rescue the Child</string>
+    <string name="Logo"><item>@drawable/o</item></string>
+    <string-array name="Register">
+        <item>People Registration</item>
+        <item>Orphanage Registration</item>
+    </string-array>
+</resources>

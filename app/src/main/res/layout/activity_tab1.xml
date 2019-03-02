@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/fl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    tools:context="pscmr.ac.in.rescuethechild.Tab2">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:weightSum="1">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.84">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginStart="40dp"
+                android:text="  MISSING DETAILS"
+                android:fontFamily="serif"
+                tools:ignore="HardcodedText,RtlHardcoded"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/vol"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="21dp"
+                    android:layout_marginTop="42dp"
+                    android:text="Name"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/editText4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="27dp"
+                    android:layout_marginEnd="14dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    tools:ignore="LabelFor,RelativeOverlap" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/editText4"
+                    android:layout_alignStart="@+id/textView3"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="28dp"
+                    android:text="Age"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/editText5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/editText4"
+                    android:layout_alignEnd="@+id/editText4"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginEnd="0dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    tools:ignore="LabelFor" />
+
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/editText5"
+                    android:layout_alignStart="@+id/textView4"
+                    android:layout_marginStart="-6dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Guardian"
+                    tools:ignore="HardcodedText" />
+
+                <EditText
+                    android:id="@+id/editText6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/editText7"
+                    android:layout_alignTop="@+id/textView5"
+                    android:layout_marginStart="-1dp"
+                    android:layout_marginTop="-19dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    tools:ignore="LabelFor" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView5"
+                    android:layout_alignTop="@+id/editText7"
+                    android:layout_alignBottom="@+id/editText7"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="21dp"
+                    android:layout_marginBottom="-21dp"
+                    android:text="MobileNo."
+                    tools:ignore="HardcodedText" />
+
+
+                <EditText
+                    android:id="@+id/editText7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/editText6"
+                    android:layout_alignStart="@+id/editText5"
+                    android:layout_marginTop="25dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    tools:ignore="LabelFor" />
+
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/editText7"
+                    android:layout_alignStart="@+id/textView6"
+                    android:layout_alignEnd="@+id/textView6"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="44dp"
+                    android:layout_marginEnd="0dp"
+                    android:text="Address"
+                    tools:ignore="HardcodedText" />
+
+
+                <EditText
+                    android:id="@+id/editText9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/editText7"
+                    android:layout_alignEnd="@+id/editText7"
+                    android:layout_marginTop="22dp"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    tools:ignore="LabelFor" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/editText7"
+                    android:layout_alignStart="@+id/textView8"
+                    android:layout_alignEnd="@+id/textView8"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="107dp"
+                    android:layout_marginEnd="0dp"
+                    android:text="Upload Photo"
+                    tools:ignore="HardcodedText" />
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageButton
+                    android:id="@+id/btnCamera"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:textAlignment="center"
+                    app:srcCompat="@mipmap/ic_launcher"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/ivImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="294dp"
+                    app:srcCompat="@mipmap/ic_launcher"
+                    tools:ignore="ContentDescription" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="UPLOAD MISSING DETAILS"
+                android:textColor="@color/colorPrimary"
+                android:textSize="18sp"
+                android:fontFamily="serif"
+                tools:ignore="HardcodedText" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

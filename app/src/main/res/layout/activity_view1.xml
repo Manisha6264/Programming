@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView11"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none" >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="290dp"
+            android:background="#f89b33" />
+
+        <TextView
+            android:id="@+id/textView_name"
+            android:layout_width="240dp"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="166dp"
+            android:fontFamily="serif-thin"
+            android:gravity="center_vertical"
+            android:text="TextView"
+            android:textColor="#faa432"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView_description"
+            android:layout_width="280dp"
+            android:layout_height="155dp"
+            android:layout_below="@+id/textView_name"
+            android:layout_alignStart="@+id/textView_name"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="1dp"
+            android:fontFamily="serif-light"
+            android:text="TextView"
+
+            android:textColor="#000000"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/imageView_logo"
+            android:layout_width="210dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="3dp"
+            app:srcCompat="@mipmap/ic_launcher"
+            android:layout_above="@+id/textView_description"
+            android:layout_alignEnd="@+id/textView_name"
+            android:layout_marginEnd="43dp"
+            android:layout_marginBottom="32dp" />
+        <Button
+            android:id="@+id/action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="300dp"
+            android:text="Messgae Here if Know"/>
+
+
+    </RelativeLayout>
+</ScrollView>
