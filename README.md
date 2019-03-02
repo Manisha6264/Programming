@@ -1,0 +1,2 @@
+# rescuethechild
+This idea aims at securing the kids. Now-a-days child trafficking is increased, so we are designing an application in such a way that whenever we find any missing children or any road side kids, then their snapshot will be uploaded in the App and the photo will be uploaded simultaneously in all Social Networking sites and also a message will be sent to the nearest Orphanage as well as to nearest police station, in order to protect the child.  If someone recognizes the child as a known person, they can immediately contact the Orphanage with proper proofs
